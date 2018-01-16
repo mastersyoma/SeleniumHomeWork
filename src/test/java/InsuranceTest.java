@@ -65,8 +65,6 @@ public class InsuranceTest {
         ArrayList<String> tabs2 = new ArrayList<String>(driver.getWindowHandles());
         driver.switchTo().window(tabs2.get(1));
 
-        //driver.navigate().to("https://online.sberbankins.ru/store/vzr/index.html");
-
         wait.until(ExpectedConditions.visibilityOf(
                 driver.findElement(By.xpath("//DIV[@class='b-form-box-title ng-binding'][text()='Минимальная']"))));
         driver.findElement(By.xpath("//DIV[@class='b-form-box-title ng-binding'][text()='Минимальная']")).click();
@@ -82,6 +80,7 @@ public class InsuranceTest {
         fillField(By.name("surname"),"Митина");
         fillField(By.name("name"),"Ольга");
         fillField(By.name("middlename"),"Ивановна");
+        driver.findElement(By.name("birthDate")).click();
         fillField(By.name("birthDate"),"01012000");
         driver.findElement(By.xpath("(//INPUT[@ng-model='formdata.insurer.GENDER'])[2]")).click();
         fillField(By.xpath("//INPUT[@ng-model='formdata.insurer.documentList[0].DOCSERIES']"),"2312");
