@@ -1,0 +1,20 @@
+{
+  "hosts" : [ {
+    "title" : "Computer",
+    "threads" : [ {
+      "title" : "2940@Computer.main(1)",
+      "testCases" : [ {
+        "uid" : "a968392eeb86f3e4",
+        "name" : "Test",
+        "title" : "Страхование путешественников",
+        "time" : {
+          "start" : 1518286244784,
+          "stop" : 1518286285024,
+          "duration" : 40240
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

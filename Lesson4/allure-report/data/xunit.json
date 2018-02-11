@@ -1,0 +1,38 @@
+{
+  "time" : {
+    "start" : 1518286244784,
+    "stop" : 1518286285024,
+    "duration" : 40240
+  },
+  "testSuites" : [ {
+    "uid" : "956909e5b37ea1e5",
+    "name" : "AllureRefactorTest",
+    "title" : "Allure refactor test",
+    "time" : {
+      "start" : 1518286244784,
+      "stop" : 1518286285024,
+      "duration" : 40240
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "a968392eeb86f3e4",
+      "name" : "Test",
+      "title" : "Страхование путешественников",
+      "time" : {
+        "start" : 1518286244784,
+        "stop" : 1518286285024,
+        "duration" : 40240
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

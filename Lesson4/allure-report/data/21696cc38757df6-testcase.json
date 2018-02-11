@@ -1,0 +1,437 @@
+{
+  "uid" : "21696cc38757df6",
+  "name" : "Test",
+  "title" : "Страхование путешественников",
+  "time" : {
+    "start" : 1518286049175,
+    "stop" : 1518286091923,
+    "duration" : 42748
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 26
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "168ada397786d225",
+    "name" : "AllureRefactorTest",
+    "title" : "Allure refactor test"
+  },
+  "steps" : [ {
+    "name" : "selectMainMenu[Застраховать себя]",
+    "title" : "Выбор подменю Застраховать себя",
+    "time" : {
+      "start" : 1518286071368,
+      "stop" : 1518286073611,
+      "duration" : 2243
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "selectSubMenu[Страхование путешественников]",
+    "title" : "Выбор подменю Страхование путешественников",
+    "time" : {
+      "start" : 1518286073615,
+      "stop" : 1518286080383,
+      "duration" : 6768
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "setJumpTo",
+    "title" : "Переход на страницу Страхование путешественников",
+    "time" : {
+      "start" : 1518286080386,
+      "stop" : 1518286082416,
+      "duration" : 2030
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "pfpage",
+    "title" : "Выбор минимальной страховки",
+    "time" : {
+      "start" : 1518286082420,
+      "stop" : 1518286087300,
+      "duration" : 4880
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "fillFields[{Номер документа=121212, Место выдачи=Москва, Имя=Ольга, Имя / Given names=Ivan, Фамилия=Иванова, Серия докум...]",
+    "title" : "заполняются поля",
+    "time" : {
+      "start" : 1518286087303,
+      "stop" : 1518286091307,
+      "duration" : 4004
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 10
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "fillField[Номер документа, 121212]",
+      "title" : "поле Номер документа заполняется значением 121212",
+      "time" : {
+        "start" : 1518286087307,
+        "stop" : 1518286087720,
+        "duration" : 413
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillField[Место выдачи, Москва]",
+      "title" : "поле Место выдачи заполняется значением Москва",
+      "time" : {
+        "start" : 1518286087722,
+        "stop" : 1518286088009,
+        "duration" : 287
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillField[Имя, Ольга]",
+      "title" : "поле Имя заполняется значением Ольга",
+      "time" : {
+        "start" : 1518286088012,
+        "stop" : 1518286088307,
+        "duration" : 295
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillField[Имя / Given names, Ivan]",
+      "title" : "поле Имя / Given names заполняется значением Ivan",
+      "time" : {
+        "start" : 1518286088309,
+        "stop" : 1518286088588,
+        "duration" : 279
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillField[Фамилия, Иванова]",
+      "title" : "поле Фамилия заполняется значением Иванова",
+      "time" : {
+        "start" : 1518286088589,
+        "stop" : 1518286088914,
+        "duration" : 325
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillField[Серия документа, 1233]",
+      "title" : "поле Серия документа заполняется значением 1233",
+      "time" : {
+        "start" : 1518286088915,
+        "stop" : 1518286089223,
+        "duration" : 308
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillField[Фамилия /Surname, Ivanov]",
+      "title" : "поле Фамилия /Surname заполняется значением Ivanov",
+      "time" : {
+        "start" : 1518286089224,
+        "stop" : 1518286089548,
+        "duration" : 324
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillField[Отчество, Ивановна]",
+      "title" : "поле Отчество заполняется значением Ивановна",
+      "time" : {
+        "start" : 1518286089550,
+        "stop" : 1518286089868,
+        "duration" : 318
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillField[Дата рождения, 10.01.1991]",
+      "title" : "поле Дата рождения заполняется значением 10.01.1991",
+      "time" : {
+        "start" : 1518286089869,
+        "stop" : 1518286090446,
+        "duration" : 577
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "fillField[Дата выдачи, 10.01.1998]",
+      "title" : "поле Дата выдачи заполняется значением 10.01.1998",
+      "time" : {
+        "start" : 1518286090447,
+        "stop" : 1518286091307,
+        "duration" : 860
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  }, {
+    "name" : "checkFillFields[{Номер документа=121212, Место выдачи=Москва, Имя=Ольга, Имя / Given names=Ivan, Фамилия=Иванова, Серия ...]",
+    "title" : "поля заполнены верно",
+    "time" : {
+      "start" : 1518286091309,
+      "stop" : 1518286091900,
+      "duration" : 591
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 10
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ {
+      "name" : "checkFillField[Номер документа, 121212]",
+      "title" : "поле Номер документа заполнено значением 121212",
+      "time" : {
+        "start" : 1518286091311,
+        "stop" : 1518286091391,
+        "duration" : 80
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFillField[Место выдачи, Москва]",
+      "title" : "поле Место выдачи заполнено значением Москва",
+      "time" : {
+        "start" : 1518286091393,
+        "stop" : 1518286091449,
+        "duration" : 56
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFillField[Имя, Ольга]",
+      "title" : "поле Имя заполнено значением Ольга",
+      "time" : {
+        "start" : 1518286091450,
+        "stop" : 1518286091532,
+        "duration" : 82
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFillField[Имя / Given names, Ivan]",
+      "title" : "поле Имя / Given names заполнено значением Ivan",
+      "time" : {
+        "start" : 1518286091532,
+        "stop" : 1518286091594,
+        "duration" : 62
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFillField[Фамилия, Иванова]",
+      "title" : "поле Фамилия заполнено значением Иванова",
+      "time" : {
+        "start" : 1518286091595,
+        "stop" : 1518286091645,
+        "duration" : 50
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFillField[Серия документа, 1233]",
+      "title" : "поле Серия документа заполнено значением 1233",
+      "time" : {
+        "start" : 1518286091645,
+        "stop" : 1518286091692,
+        "duration" : 47
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFillField[Фамилия /Surname, Ivanov]",
+      "title" : "поле Фамилия /Surname заполнено значением Ivanov",
+      "time" : {
+        "start" : 1518286091692,
+        "stop" : 1518286091757,
+        "duration" : 65
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFillField[Отчество, Ивановна]",
+      "title" : "поле Отчество заполнено значением Ивановна",
+      "time" : {
+        "start" : 1518286091757,
+        "stop" : 1518286091835,
+        "duration" : 78
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFillField[Дата рождения, 10.01.1991]",
+      "title" : "поле Дата рождения заполнено значением 10.01.1991",
+      "time" : {
+        "start" : 1518286091836,
+        "stop" : 1518286091872,
+        "duration" : 36
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    }, {
+      "name" : "checkFillField[Дата выдачи, 10.01.1998]",
+      "title" : "поле Дата выдачи заполнено значением 10.01.1998",
+      "time" : {
+        "start" : 1518286091873,
+        "stop" : 1518286091900,
+        "duration" : 27
+      },
+      "summary" : {
+        "attachments" : 0,
+        "steps" : 0
+      },
+      "status" : "PASSED",
+      "attachments" : [ ],
+      "steps" : [ ]
+    } ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "6192@Computer.main(1)"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "host",
+    "value" : "Computer"
+  }, {
+    "name" : "suite-name",
+    "value" : "AllureRefactorTest"
+  } ],
+  "parameters" : [ ]
+}
